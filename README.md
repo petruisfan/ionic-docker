@@ -1,6 +1,5 @@
 # ionic-docker
-I
-onic build tool based on docker
+Ionic build tool based on docker
 
 ## Background
 
@@ -21,6 +20,15 @@ The docker image provided can be used to:
 - develop the app
 
 It is a combination of docker file configurations and shell script for automation.
+
+The docker image contains:
+- Java 8
+- Node 8
+- Ionic
+- Cordova
+- TypeScript
+- Android SDK
+- Gradle
 
 ## Usage
 
