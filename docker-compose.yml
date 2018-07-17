@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ionic:
+    image: petruisfan/docker-ionic:${IMAGE_VERSION}
+    volumes:
+      - .:/code
+    working_dir: /code
+    ports:
+     - "8100:8100"
+    command: ["/usr/local/bin/ionic", "serve", "--no-open"]
