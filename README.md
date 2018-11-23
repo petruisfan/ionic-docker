@@ -67,4 +67,4 @@ The specific version of the docker image is located as a variable in `.env` to b
 - integrate this docker image in every ionic project
 - also make sure to copy the "node_modules" somewhere in the docker image to make sure you still have the same version installed and available in time. Just copy the node_modules in a folder like ~ inside the container, and copy it to it's original location in the source code if not present.
 - use this type of images when developing with online IDEs like Cloud9
-- do not try to connect usb drivers and phone to the docker container (it's a pain). Just use tools like [Ionic DevApp](https://ionicframework.com/docs/pro/devapp/)
+- Use tools like [Ionic DevApp](https://ionicframework.com/docs/pro/devapp/) for deploy
